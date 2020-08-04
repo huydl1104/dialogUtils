@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:paddingBottom="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:text="文字可以左右滑动：文字可以左右滑动：文字可以左右滑动：文字可以左右滑动：文字可以左右滑动：123123123"
+            android:layout_width="100dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            android:id="@+id/tv"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:text="系统原生Toast"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#999999"
+            android:text="自定义Toast"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/button44"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#999999"
+            android:text="自定义删除view Toast"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/button55"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#999999"
+            android:text="自定义View Toast"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/button66"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#999999"
+            android:text="自定义布局 Toast"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="@string/tv_dialog"
+            android:id="@+id/button11"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="dialog源码分析"
+            android:id="@+id/button13"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="phoneWindow源码分析"
+            android:id="@+id/button67"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="自定义PopupWindow弹窗"
+            android:id="@+id/button77"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="自定义PopupWindow弹窗builder模式11"
+            android:id="@+id/button88"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="自定义PopupWindow弹窗builder模式22"
+            android:id="@+id/button99"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="从底部自定义弹窗填充menu菜单"
+            android:id="@+id/button100"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="自定义底部布局弹窗 dialogFragment"
+            android:id="@+id/button101"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="自定义弹窗dialogFragment使用recyclerView "
+            android:id="@+id/button102"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="弹窗1 "
+            android:id="@+id/button103"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="弹窗2 "
+            android:id="@+id/button104"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="弹窗3 "
+            android:id="@+id/button105"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="loadingView 11 "
+            android:id="@+id/button106"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="SnackBar源代码  "
+            android:id="@+id/button207"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="Snackbar 11 "
+            android:id="@+id/button107"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="Snackbar 22 "
+            android:id="@+id/button108"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="Snackbar 33 "
+            android:id="@+id/button109"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="Snackbar 44 "
+            android:id="@+id/button110"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#999999"
+            android:text="Snackbar 55 "
+            android:id="@+id/button111"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"/>
+
+    </LinearLayout>
+
+</ScrollView>
